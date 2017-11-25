@@ -34,10 +34,12 @@ p{
     }
 
     .logo {
-	float:none;    
+	float:none !important;    
     }
 	
 }
+
+
 
 /* ----
 
