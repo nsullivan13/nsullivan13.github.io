@@ -27,7 +27,7 @@ p{
 	color:#000;	
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 649px) {
     #logoimg {
         margin: auto;
 	width: 50px;
