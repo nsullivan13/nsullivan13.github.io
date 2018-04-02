@@ -11,16 +11,16 @@
 -------------------------------------------------------------------------------*/
 
 .section{
-	padding: 20px 0 !important;	
+	padding: 5px 0 !important;	
 }
 
 #header{
 	
-	padding: 0px 5%;
+	padding: 0px 4%;
 }
 
 .hero-content{
-	padding-top:70px !important;	
+	padding-top:100px !important;	
 }
 
 p{
@@ -41,8 +41,8 @@ p{
 
 hr {
 
-	margin-top: 0px !important;
-	margin-bottom: 0px !important;
+	margin-top: -30px !important;
+	margin-bottom: 5px !important;
 }
 
 
@@ -115,7 +115,7 @@ h6 {
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: #2157e6;
 	font-family: Scala Sans;
 }
 a:hover, a:focus {
@@ -137,7 +137,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 50px 0;
+	padding: 50px 10;
 }
 .no-padding {
 	padding: 0;
@@ -311,7 +311,7 @@ ul li {
 	margin-top: 10%;
 }
 .hero-content {
-	margin-top: 3%
+	margin-top: 0%
 }
 .hero h1 {
 	font-size: 48px;
