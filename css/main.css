@@ -11,16 +11,16 @@
 -------------------------------------------------------------------------------*/
 
 .section{
-	padding: 50px 0 !important;	
+	padding: 20px 0 !important;	
 }
 
 #header{
 	
-	padding: 10px 5%;
+	padding: 0px 5%;
 }
 
 .hero-content{
-	padding-top:50px !important;	
+	padding-top:70px !important;	
 }
 
 p{
@@ -120,8 +120,6 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	-moz-transition: background-color, color, 0.3s;
-	-o-transition: background-color, color, 0.3s;
 	-webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
 }
@@ -163,8 +161,6 @@ ul li {
 	margin: 0 auto;
 	padding: 60px 10%;
 	width: 100%;
-	-moz-transition: padding 0.3s;
-	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 }
@@ -184,8 +180,6 @@ ul li {
 .navigation.open {
 	opacity: 0.9;
 	visibility: visible;
-	-moz-transition: opacity 0.5s;
-	-o-transition: opacity 0.5s;
 	-webkit-transition: opacity 0.5s;
 	transition: opacity 0.5s;
 }
@@ -215,8 +209,6 @@ ul li {
 	white-space: nowrap;
 	width: 44px;
 	z-index: 99999;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
@@ -228,37 +220,26 @@ ul li {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
-	-moz-backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	-moz-transition-property: -moz-transform;
-	-o-transition-property: -o-transform;
 	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
 	transition-property: transform;
+	transition-property: transform, -webkit-transform;
 }
 .nav-toggle:before {
 	background-color: #333;
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	-moz-transition-duration: 0.3s;
-	-o-transition-duration: 0.3s;
 	-webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 }
 .nav-toggle:after {
 	background-color: #000;
-	-moz-transform: scale(0);
-	-ms-transform: scale(0);
 	-webkit-transform: scale(0);
 	transform: scale(0);
-	-moz-transition-duration: 0s;
-	-o-transition-duration: 0s;
 	-webkit-transition-duration: 0s;
 	transition-duration: 0s;
 }
@@ -273,8 +254,6 @@ ul li {
 	top: 50%;
 	width: 18px;
 	z-index: 10;
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
@@ -286,39 +265,28 @@ ul li {
 	right: 0;
 	top: 0;
 	width: 100%;
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
-	-moz-backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	-moz-transition: -moz-transform 0.3s;
-	-o-transition: -o-transform 0.3s;
 	-webkit-transition: -webkit-transform 0.3s;
+	transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
+	transition: transform 0.3s, -webkit-transform 0.3s;
 }
 .nav-toggle span:before {
-	-moz-transform: translateY(-6px) rotate(0deg);
-	-ms-transform: translateY(-6px) rotate(0deg);
 	-webkit-transform: translateY(-6px) rotate(0deg);
 	transform: translateY(-6px) rotate(0deg);
 }
 .nav-toggle span:after {
-	-moz-transform: translateY(6px) rotate(0deg);
-	-ms-transform: translateY(6px) rotate(0deg);
 	-webkit-transform: translateY(6px) rotate(0deg);
 	transform: translateY(6px) rotate(0deg);
 }
 .nav-toggle.close-nav:before {
-	-moz-transform: scale(0);
-	-ms-transform: scale(0);
 	-webkit-transform: scale(0);
 	transform: scale(0);
 }
 .nav-toggle.close-nav:after {
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -329,14 +297,10 @@ ul li {
 	background-color: #fff;
 }
 .nav-toggle.close-nav span:before {
-	-moz-transform: translateY(0) rotate(45deg);
-	-ms-transform: translateY(0) rotate(45deg);
 	-webkit-transform: translateY(0) rotate(45deg);
 	transform: translateY(0) rotate(45deg);
 }
 .nav-toggle.close-nav span:after {
-	-moz-transform: translateY(0) rotate(-45deg);
-	-ms-transform: translateY(0) rotate(-45deg);
 	-webkit-transform: translateY(0) rotate(-45deg);
 	transform: translateY(0) rotate(-45deg);
 }
@@ -379,7 +343,6 @@ ul li {
 	opacity: 0;
 	background: rgba(58,54,54,.9);
 	-webkit-transition: all ease .4s;
-	-moz-transition: all ease .4s;
 	transition: all ease .4s;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
