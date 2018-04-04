@@ -124,6 +124,7 @@ h6 {
 a {
 	color: #2157e6;
 	font-family: Scala Sans;
+    font-family: Verdana;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -135,6 +136,7 @@ body {
 	font-weight: 400;
 	color: #fff;
 	font-family: Scala Sans;
+    font-family: Verdana;
 }
 ul, ol {
 	margin: 0;
