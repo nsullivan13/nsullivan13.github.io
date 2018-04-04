@@ -53,25 +53,29 @@ hr {
 */ --- 
 
 p {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 22.4px;
 	color: #6c7279;
-	font-family: Scala Sans;
+	font-family: Scala Sans; 
+    font-family: Verdana;
 }
 h1 {
 	font-size: 65px;
 	color: #2d3033;
 	font-family: Scala Sans;
+    font-family: Verdana;
 }
 h2 {
 	font-size: 40px;
 	color: #2d3033;
 	font-family: Scala Sans;
+    font-family: Verdana;
 }
 h3 {
 	font-size: 28px;
 	color: #2d3033;
 	font-family: Scala Sans;
+    font-family: Verdana;
 	font-weight: 300;
 }
 h4 {
@@ -79,18 +83,21 @@ h4 {
 	color: #2d3033;
 	font-weight: 400;
 	font-family: Scala Sans;
+    font-family: Verdana;
 }
 h5 {
 	font-size: 14px;
 	color: #2d3033;
 	font-weight: 700;
 	font-family: Scala Sans;
+    font-family: Verdana;
 }
 h6 {
 	font-size: 40px;
 	color: #FFFFFF;
 	font-weight: .1;
 	font-family: Scala Hands;
+    font-family: Verdana;
 }
 .btn {
 	background-color: #333;
