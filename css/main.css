@@ -20,7 +20,7 @@
 }
 
 .hero-content{
-	padding-top:100px !important;	
+	padding-top:130px !important;	
 }
 
 p{
@@ -51,13 +51,18 @@ hr {
 	Customizations above
 
 */ --- 
+    @font-face{
+        font-family:"Scala Sans Offc W01 Regular";
+        src:url("Fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix");
+        src:url("Fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix") format("eot"),url("Fonts/1378236/11c4b646-eb90-4301-b823-8b6d1e5d14c9.woff2") format("woff2"),url("Fonts/1378236/932baf8a-2d66-47d6-827d-645d86a22de8.woff") format("woff"),url("Fonts/1378236/b96ed0f8-bf8f-459a-aa49-3ddfda36234d.ttf") format("truetype");
+    }
 
 p {
-	font-size: 18px;
-	line-height: 22.4px;
+	font-size: 14.5px;
+	line-height: 22px;
 	color: #6c7279;
-	font-family: Scala Sans; 
-    font-family: Verdana;
+	font-family: "Scala Sans Offc W01 Regular"; 
+    font-family: "Verdana";
 }
 h1 {
 	font-size: 65px;
@@ -123,8 +128,8 @@ h6 {
 -------------------------------------------------------------------------------*/
 a {
 	color: #2157e6;
-	font-family: Scala Sans;
-    font-family: Verdana;
+	font-family: "Scala Sans Offc W01 Regular";
+    font-family: "Verdana";
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -132,11 +137,10 @@ a:hover, a:focus {
 	transition: background-color, color, 0.3s;
 }
 body {
-	font-family: "Cutive Mono";
 	font-weight: 400;
 	color: #fff;
-	font-family: Scala Sans;
-    font-family: Verdana;
+	font-family: "Scala Sans Offc W01 Regular";
+    font-family: "Verdana";
 }
 ul, ol {
 	margin: 0;
