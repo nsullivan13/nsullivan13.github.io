@@ -9,11 +9,13 @@
 /* ------------------------------------------------------------------------------
 	Typography
 -------------------------------------------------------------------------------*/
-    @font-face{
-        font-family:"Scala Sans Offc W01 Regular";
-        src:url("Fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix");
-        src:url("Fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix") format("eot"),url("Fonts/1378236/11c4b646-eb90-4301-b823-8b6d1e5d14c9.woff2") format("woff2"),url("Fonts/1378236/932baf8a-2d66-47d6-827d-645d86a22de8.woff") format("woff"),url("Fonts/1378236/b96ed0f8-bf8f-459a-aa49-3ddfda36234d.ttf") format("truetype");
-    }
+@font-face{
+    font-family:"Scala Sans Offc W01 Regular";
+    /*src:url("fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix");*/
+    src:url("fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot");
+    /*src:url("fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix") format("eot"),url("fonts/1378236/11c4b646-eb90-4301-b823-8b6d1e5d14c9.woff2") format("woff2"),url("fonts/1378236/932baf8a-2d66-47d6-827d-645d86a22de8.woff")
+    src:url("fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot") format("eot"),url("fonts/1378236/11c4b646-eb90-4301-b823-8b6d1e5d14c9.woff2") format("woff2"),url("fonts/1378236/932baf8a-2d66-47d6-827d-645d86a22de8.woff")format("woff"),url("fonts/1378236/b96ed0f8-bf8f-459a-aa49-3ddfda36234d.ttf") format("truetype");*/
+}
 
 .section{
 	padding: 0px 0 !important;	
@@ -21,7 +23,7 @@
 
 #header{
 	
-	padding: 1% 4%;
+	padding: 1% 4% 0% 4%;
 }
 
 .hero-content{
@@ -91,8 +93,8 @@ hr {
 */ --- 
     @font-face{
         font-family:"Scala Sans Offc W01 Regular";
-        src:url("Fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix");
-        src:url("Fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix") format("eot"),url("Fonts/1378236/11c4b646-eb90-4301-b823-8b6d1e5d14c9.woff2") format("woff2"),url("Fonts/1378236/932baf8a-2d66-47d6-827d-645d86a22de8.woff") format("woff"),url("Fonts/1378236/b96ed0f8-bf8f-459a-aa49-3ddfda36234d.ttf") format("truetype");
+        src:url("fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix");
+        src:url("fonts/1378236/c508db89-9bba-4eaa-b16b-4a82b8431246.eot?#iefix") format("eot"),url("fonts/1378236/11c4b646-eb90-4301-b823-8b6d1e5d14c9.woff2") format("woff2"),url("fonts/1378236/932baf8a-2d66-47d6-827d-645d86a22de8.woff") format("woff"),url("fonts/1378236/b96ed0f8-bf8f-459a-aa49-3ddfda36234d.ttf") format("truetype");
     }
 
 p {
@@ -100,25 +102,25 @@ p {
 	line-height: 22px;
 	color: #6c7279;
 	font-family: "Scala Sans Offc W01 Regular"; 
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
 }
 h1 {
 	font-size: 65px;
 	color: #2d3033;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
 }
 h2 {
 	font-size: 22px;
 	color: #2d3033;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
 }
 h3 {
 	font-size: 14.5px;
 	color: #2d3033;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
 	font-weight: 100;
 }
 h4 {
@@ -126,21 +128,21 @@ h4 {
 	color: #2d3033;
 	font-weight: 100;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
 }
 h5 {
 	font-size: 25px;
 	color: #fff;
 	font-weight: 200;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
 }
 h6 {
 	font-size: 15px;
 	color: #6c7279;
 	font-weight: 100;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
     text-transform: uppercase;
 }
 h7 {
@@ -148,7 +150,7 @@ h7 {
 	color: #6c7279;
 	font-weight: 100;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: "Verdana", "Geneva", sans-serif;
     padding-bottom: 12px;
 }
 .btn {
@@ -176,7 +178,7 @@ h7 {
 a {
 	color: #2157e6;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana;
+    font-family: "Verdana";
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -187,7 +189,7 @@ body {
 	font-weight: 400;
 	color: #fff;
 	font-family: "Scala Sans Offc W01 Regular";
-    font-family: Verdana;
+    font-family: "Verdana";
 }
 ul, ol {
 	margin: 0;
@@ -219,7 +221,7 @@ ul li {
 }
 #header .header-content {
 	margin: 0 auto;
-	padding: 60px 10%;
+	padding: 60px 10% 1%;
 	width: 100%;
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
@@ -494,7 +496,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 .work-detail img {
 	width: 100%;
-	text-align: center;
+    text-align: center;
 	margin: 5% 0 5% 0;
 }
 
